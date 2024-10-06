@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Java Script</h1>
+
+
+    <!-- Events  -->
+    <button onclick="showMe()">Show me</button>
+    <h1 id="display1"></h1>
+
+    <input id="input1" type="text" onchange="onChange()">
+
+    <br><br>
+    <div onmouseover="onMouseOver()" onmouseout="onMouseOut()" style="width: 200px; height: 200px; background-color: red;"></div>
+    <br><br>
+    <input type="text" onkeyup="onKeyUp()" onkeydown="onKeyDown()" onkeypress="onKeyPress()" id="input2" >
+
+    <div class="form">
+        <input onkeyup="onChangeTextError()" id="from-input" type="text"><br>
+        <label id="error"></label>
+    </div>
+
+    <img src="../assets/chat-c.png" onmouseout="img1HoverOut()" id="img-1" alt="">
+    <img src="../assets/chat-c-1.png" onmouseover="img2Hover()" id="img-2" alt="">
+
+
+    <img src="../assets/chat-c-1.png" onmouseout="img11HoverOut()" onmouseover="img11Hover()" id="img-11" alt="">
+
+    <br><br><br>
+    <!-- Internal Script  -->
+    <script>
+        console.log('Run App..!');
+    </script>
+
+    <!-- External Script  -->
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.content {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    transition: background-color 3s, width 3s, height 3s, font-size 3s, color 3s, border-radius 3s;
+}
+
+.content:hover {
+    background-color: rgb(0, 255, 238);
+    width: 400px;
+    height: 400px;
+    font-size: 60px;
+    color: black;
+    border-radius: 300px;
+}
